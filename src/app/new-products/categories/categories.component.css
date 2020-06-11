@@ -1,0 +1,25 @@
+    .card{
+        font-weight: bold;
+        color: white;
+        padding: 49px 39px 41px 43px;
+        background: #40a944;
+        width: 18rem;
+        box-shadow: 1px 1px 8px #888888;
+        letter-spacing: 3px;
+
+    }
+    .card:hover{
+        background: lightgreen;
+    }
+  
+    .product .product-body:hover{
+        background: #40a944;
+        color: white;
+    }
+    /* .product .product-body:hover{
+        background: #40a944;
+        color: white;
+    }
+    .product-name:hover{
+        color: white;
+    } */

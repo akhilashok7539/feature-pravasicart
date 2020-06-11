@@ -1,0 +1,22 @@
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+label{
+    color: gray;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 100 !important;
+}
+.form-control{
+    padding: 22px;
+}
+.btn-primary{
+    border: none;
+    width: 100%;
+    background: #40a944;
+    color: white;
+    padding: 20px;
+
+}

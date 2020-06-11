@@ -1,0 +1,124 @@
+<app-header></app-header>
+
+<section class="ftco-section ftco-cart" style="margin-top: 9vw;" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ftco-animate">
+          <div class="cart-list">
+            <table class="table" >
+              <thead class="thead-primary">
+                <tr class="text-center">
+                
+                  <th>Product name</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                  <!-- <th>Checkout</th>     -->
+                </tr>
+              </thead>
+              <tbody>
+             
+                <tr>
+               
+  
+                  <td class="product-name">
+                    <h3>Product Name</h3>
+                  </td>
+  
+                  <td class="price">$20</td>
+  
+                  <td class="quantity">
+                    <div class="input-group mb-3" style="margin-left: auto;margin-right: auto;display: block;">
+                      <button class="button" style="background: none;
+                      width: 30px;
+                      height: 30px;
+                      border: 1px solid gainsboro;" (click)="decrement()">-</button>
+                      <a style="margin-right: 9px; margin-left: 9px;"> {{quantiy}}</a>
+                      <!-- <a style="margin-right: 9px; margin-left: 9px;" *ngIf="quantity < '20' && quantity > '1'"> {{quantity}}</a> -->
+  
+                      <button class="button"  style="background: none;
+                      width: 30px;
+                      height: 30px;
+                      border: 1px solid gainsboro;" (click)="increment()">+</button>
+                    </div>
+                  </td>
+  
+                  <td class="total">$200 </td>
+                  <!-- <td><button class="btn btn-warning" (click)="BuyProduct(items)">Buy</button></td> -->
+                  <!-- <button class="button" (click)="getTotal()">+</button> -->
+                </tr><!-- END TR-->
+  
+  
+              </tbody>
+            </table>
+            <!-- <img  style="margin-left: auto;margin-right: auto;display: block;"
+            src="assets/img/noitmsfound.png" height="300px" width="300px">
+          <h4 style="text-align: center;" *ngIf="messages == 'No Item Found'">Cart is Empty</h4> -->
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-end">
+        <!-- <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+              <div class="cart-total mb-3">
+                  <h3>Coupon Code</h3>
+                  <p>Enter your coupon code if you have one</p>
+                    <form action="#" class="info">
+            <div class="form-group">
+                <label for="">Coupon code</label>
+              <input type="text" class="form-control text-left px-3" placeholder="">
+            </div>
+          </form>
+              </div>
+              <p><a href="checkout.html" class="btn btn-primary py-3 px-4">Apply Coupon</a></p>
+          </div> -->
+        <!-- <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+              <div class="cart-total mb-3">
+                  <h3>Estimate shipping and tax</h3>
+                  <p>Enter your destination to get a shipping estimate</p>
+                    <form action="#" class="info">
+            <div class="form-group">
+                <label for="">Country</label>
+              <input type="text" class="form-control text-left px-3" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="country">State/Province</label>
+              <input type="text" class="form-control text-left px-3" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="country">Zip/Postal Code</label>
+              <input type="text" class="form-control text-left px-3" placeholder="">
+            </div>
+          </form>
+              </div>
+              <p><a href="checkout.html" class="btn btn-primary py-3 px-4">Estimate</a></p>
+          </div> -->
+        <div class="col-lg-4 mt-5 cart-wrap ftco-animate" style="    padding: 18px;
+        float: right;
+        border: 1px solid gainsboro"   >
+          <div class="cart-total mb-3">
+            <h3>Cart Totals</h3>
+            <p class="d-flex">
+              <span style="width: 100%;">Subtotal</span>
+              <span style="color: black; font-weight: bold;float: right;">$200</span>
+  
+            </p>
+            <p class="d-flex">
+              <span style="width: 100%;">Delivery</span>
+              <span style="font-weight: bold; color: red;float: right;">FREE</span>
+            </p>
+            <p class="d-flex">
+              <span style="width: 100%;">Discount</span>
+              <span style="color: green; font-weight: bold;float: right;"> $0.00</span>
+            </p>
+            <hr>
+            <p class="d-flex total-price">
+              <span style="width: 100%;">Total</span>
+              <span style="color: black; font-weight: bold;float: right;">$100</span>
+            </p>
+          </div>
+          <p><a (click)="checkout()"  class="btn btn-primary py-3 px-4" style="color: white;">Proceed to Checkout</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  

@@ -1,0 +1,219 @@
+ h4 {
+     color: #2B2D42;
+     font-weight: 700;
+     margin: 21px 0 10px;
+ }
+
+ .header-ctn {
+     float: right;
+     padding: 24px 3px;
+ }
+ .header-search form .search-btn {
+    height: 40px;
+    width: 56px;
+    background: #40a944;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+}
+ nav, .nav-links-container {
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ nav {
+     background-color: white;
+     min-height: 8vh;
+     padding: 0 50px;
+ }
+
+ .nav-links li a {
+     text-decoration: none;
+     color: black;
+     font-size: 1em;
+ }
+
+ .nav-links-container {
+     list-style: none;
+     width: 40%;
+ }
+
+ .nav-links-container li a {
+     text-decoration: none;
+     color: black;
+     font-size: 1em;
+ }
+
+ #logo {
+     color: red;
+     font-size: 2.5em;
+ }
+
+ .burger div {
+     background-color: black;
+     height: 3px;
+     width: 25px;
+     /* border-radius: 10%; */
+     margin: 5px;
+ }
+
+ .burger {
+     display: none;
+ }
+
+ .menu-spacer {
+     flex: 1 1 auto;
+ }
+
+ .navbar-toggler {
+     display: none;
+ }
+.btn-sucess{
+    padding: 13px 41px;
+    color: white;
+    background: #40a944;
+    margin-top: 10px;
+    margin-left: -55px;
+    outline: none;
+    /* margin-bottom: -14px; */
+}
+
+ @media screen and (max-width : 768px) {
+     .navbar-toggler {
+         display: block;
+     }
+     
+     .btn-sucess{
+        padding: 13px 41px;
+        color: white;
+        background: #40a944;
+        /* margin-left: -5px; */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+     nav {
+         background-color: #40a944;
+         min-height: 0vh;
+         padding: 0 50px;
+     }
+     .header-logo .logo img{
+        margin-left: auto !important;
+    }
+    }
+ 
+     ::ng-deep .mat-button{
+        letter-spacing: 3px;
+        margin-left: -6px !important; 
+     }
+ 
+
+ .container-fluid {
+     padding-right: 15px;
+     padding-left: 0px;
+     margin-right: auto;
+     margin-left: 0px;
+ }
+
+ @media only screen and (max-width: 991px) {
+     .main-nav>li>a {
+         letter-spacing: 3px;
+         padding: 15px;
+         color: #fff;
+     }
+ }
+
+ @media screen and (max-width : 768px) {
+     .nav-links-container {
+         position: absolute;
+         right: 0;
+         top: 8vh;
+         height: 92vh;
+         background-color: blanchedalmond;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+         transform: translateX(100%)
+     }
+     .burger {
+         display: block;
+     }
+     .nav-links-container li a {
+         opacity: 0%;
+     }
+     .nav-clicked {
+         transform: translateX(0%);
+     }
+ }
+
+ .header-ctn>div>a>.qty {
+     position: absolute;
+     right: 15px;
+     top: -10px;
+     width: 20px;
+     height: 20px;
+     line-height: 20px;
+     text-align: center;
+     border-radius: 50%;
+     font-size: 10px;
+     color: #FFF;
+     background-color: #f2efef;
+ }
+
+ h6 {
+     font-family: "Work Sans", sans-serif;
+     text-transform: uppercase;
+     color: #222;
+     font-size: 14px;
+     text-transform: uppercase;
+     line-height: 46px;
+     font-weight: 100;
+     padding: 8px;
+ }
+
+ @media (min-width: 1200px) {
+     .container {
+         width: 1200px;
+     }
+ }
+
+ 
+ @media only screen and (max-width: 600px) and (min-width: 300px) {
+     .header-search form .input {
+         width: calc(100% - 174px);
+         margin-right: -4px;
+     }
+     .input-select {
+         padding: 3px 7px;
+         background: #FFF;
+         border: 1px solid #E4E7ED;
+         height: 40px;
+     }
+ }
+ /* .header-ctn>div>a>i:hover
+ {
+     color: red;
+ } */
+ /* @media only screen and (max-width: 960px) {
+     .header-search form .input {
+         width: calc(100% - 242px);
+         margin-right: -4px;
+     }
+ } */
+
+ .header-logo .logo img {
+    margin-left: -126px;
+    display: block;
+}
+::ng-deep .mat-button{
+    background: #40a944;
+    /* margin-top: 11px; */
+    border-radius: 30px !important;
+    color: white;
+    width: 100%;
+    margin-top: 12px !important;
+}
