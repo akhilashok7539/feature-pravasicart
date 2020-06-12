@@ -174,7 +174,10 @@
      font-weight: 100;
      padding: 8px;
  }
-
+ .header-search form .input-select {
+    margin-right: 0px;
+    border-radius: 40px 0px 0px 40px;
+}
  @media (min-width: 1200px) {
      .container {
          width: 1200px;
@@ -206,7 +209,7 @@
  } */
 
  .header-logo .logo img {
-    margin-left: -126px;
+    margin-left: -82px;
     display: block;
 }
 ::ng-deep .mat-button{

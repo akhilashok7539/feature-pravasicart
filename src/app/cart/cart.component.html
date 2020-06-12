@@ -30,15 +30,16 @@
                   <td class="quantity">
                     <div class="input-group mb-3" style="margin-left: auto;margin-right: auto;display: block;">
                       <button class="button" style="background: none;
-                      width: 30px;
-                      height: 30px;
+                      margin-left: -3px;
+                      min-height: 20px;
+                      position: absolute;
+                      min-width: 25px;
                       border: 1px solid gainsboro;" (click)="decrement()">-</button>
-                      <a style="margin-right: 9px; margin-left: 9px;"> {{quantiy}}</a>
+                      <a style="margin-right: 9px; margin-left: 26px;"> {{quantiy}}</a>
                       <!-- <a style="margin-right: 9px; margin-left: 9px;" *ngIf="quantity < '20' && quantity > '1'"> {{quantity}}</a> -->
   
-                      <button class="button"  style="background: none;
-                      width: 30px;
-                      height: 30px;
+                      <button class="button"  style="    background: none;
+                      position: absolute;
                       border: 1px solid gainsboro;" (click)="increment()">+</button>
                     </div>
                   </td>
@@ -122,3 +123,7 @@
     </div>
   </section>
   
+<div style="margin-top: 20px;">
+
+</div>
+  <app-footer></app-footer>

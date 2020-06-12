@@ -61,12 +61,19 @@ img{
 }
 
 .slideshow-item-text {
-    max-width: 50%;
+    /* max-width: 50%;
     position: absolute;
     top: 10%;
-    left: 27px;
+    left: 27px; */
     /* transform: translate(-50%); */
     /* background-color: rgba(0, 0, 0, .8); */
+    /* color: black;
+    padding: 10rem 5rem; */
+
+    max-width: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0px;
     color: black;
     padding: 10rem 5rem;
 }
@@ -155,3 +162,4 @@ img{
     position: relative;
     padding: 0 10px 0 45px;
 } */
+
